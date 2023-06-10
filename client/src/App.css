@@ -8,16 +8,22 @@ body {
 }
 
 header {
+  background-image: url('./logo2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #4caf50;
   color: #fff;
   text-align: center;
   padding: 20px;
+  height: 362px;
+  margin-top: -4pc;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  background-color: #333;
+  background-color: #FDD835;
 }
 
 nav ul {
@@ -33,7 +39,7 @@ nav li {
 
 nav a {
   display: block;
-  color: #fff;
+  color: #000;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -47,6 +53,8 @@ nav ul ul {
   display: none;
   position: absolute;
   top: 60px;
+  background: #FDD835;
+
 }
 
 nav ul li:hover > ul {
@@ -59,16 +67,22 @@ nav ul li:hover > ul {
   align-items: center;
   flex-direction: column;
   margin-top: 40px;
+  width: 100%;
 }
 
 .register-container h2 {
   margin-bottom: 20px;
+  font-size: 37px;
 }
 
 .register-container form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 70%;
+  padding-top: 2pc;
+  height: 416px;
+  background: #FDD835;
 }
 
 .register-container label {
@@ -80,13 +94,15 @@ nav ul li:hover > ul {
 .register-container label input {
   margin-top: 5px;
   padding: 8px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  border-radius: 18px;
+  border: 1px solid #43ADA7;
   font-size: 16px;
+  width: 700px;
 }
 
+
 .register-button {
-  background-color: #4caf50;
+  background-color: #43ADA7;
   color: #fff;
   border: none;
   padding: 12px 16px;
@@ -97,7 +113,8 @@ nav ul li:hover > ul {
 }
 
 .register-button:hover {
-  background-color: #3e8e41;
+  background-color: #FDD835;
+  color: #000;
 }
 
 main {
@@ -106,6 +123,7 @@ main {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 40px;
+  background: url(./background2.png);
 }
 
 .card-container {
